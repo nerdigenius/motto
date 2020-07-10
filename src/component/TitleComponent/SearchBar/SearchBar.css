@@ -1,0 +1,35 @@
+.SearchBar{
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    bottom: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    border-radius: 80px;
+    display: flex;
+    padding: 0 30px;
+    border: none;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-area{
+    width: 97%;
+    outline:none;
+    border:none;
+    font-size: 20px;
+
+}
+.searchicon{
+    width:fit-content;
+    height:fit-content
+}

@@ -1,0 +1,64 @@
+.Button{
+    width: fit-content;
+    height: 40px;
+    padding: 10px;
+    background: none;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+}
+.text-gray:focus{
+    border: none;
+    color: black;
+    background: none;
+    outline:none;
+}
+.text-gray{
+    color:grey;
+}
+
+.grey-border{
+    border:1px solid #818181;
+    border-radius: 10px;
+    color:#818181;
+}
+
+.orange-background{
+    background-color: #E17800;
+    color:white;
+    border-radius: 10px;
+}
+.orange-background:focus{
+    outline: 0;
+    background-color: orange;
+}
+
+.dots{
+    font-weight: 900;
+    letter-spacing: 4px;
+    display: inline-flex;
+    align-items: center; 
+}
+.dots span{
+    width: 32px;
+    background:none;
+    position:relative;
+  }
+ .dots span:before{
+      content: "";
+      position: absolute;
+      margin-left: -33%;
+      background:#818181;
+      border-radius: 50%;
+      width: 4px;
+      height: 4px;
+      box-shadow: 8px 0px #818181, 16px 0px #818181;
+  }
+.Button.dots:focus{
+   background-color:lightgray;
+    outline: 0;
+    border-radius: 10px;
+   
+}
+
+  
